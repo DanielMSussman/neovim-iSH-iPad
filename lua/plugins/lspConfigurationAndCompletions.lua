@@ -23,6 +23,9 @@ return {
         local lspconfig = require("lspconfig")
             --advertise cmp-nvim-lsp
         local capabilities = require('cmp_nvim_lsp').default_capabilities()
+--            lspconfig.lua_ls.setup({capabilities = capabilities,})
+--            lspconfig.texlab.setup({capabilities = capabilities,})
+            lspconfig.clangd.setup({capabilities = capabilities,})
     end
     },
     {
@@ -122,7 +125,7 @@ return {
 
                 sources = cmp.config.sources({
                     { name = 'luasnip' },
-                    --{ name = 'nvim_lsp' }, -- not functioning (?)
+                    { name = 'nvim_lsp' }, -- not functioning (?)
                     --{ name = 'buffer', keyword_length = 5 }, -- completion from buffer is SLOW
                 }),
                 performance = {max_view_entries = 15,}, 
