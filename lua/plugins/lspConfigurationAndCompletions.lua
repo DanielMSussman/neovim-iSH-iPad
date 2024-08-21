@@ -126,9 +126,10 @@ return {
                 sources = cmp.config.sources({
                     { name = 'luasnip' },
                     { name = 'nvim_lsp' }, -- not functioning (?)
-                    --{ name = 'buffer', keyword_length = 5 }, -- completion from buffer is SLOW
+                    { name = 'buffer', keyword_length = 5 }, -- completion from buffer is SLOW
                 }),
-                performance = {max_view_entries = 15,}, 
+                performance = {max_view_entries = 15,
+                                debounce = 500,}, 
             })
 
             cmp.setup.cmdline({ '/', '?' }, {
@@ -150,9 +151,9 @@ return {
 
             cmp.setup.filetype("tex", {
                 sources = {
-                    --{ name = 'vimtex' },
+                    { name = 'vimtex' },
                     { name = 'luasnip' },
-                    --{ name = 'buffer', keyword_length = 5 },
+                    { name = 'buffer', keyword_length = 5 },
                 },
             })
         end
