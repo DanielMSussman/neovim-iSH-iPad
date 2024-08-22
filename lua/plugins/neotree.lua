@@ -8,6 +8,6 @@ return {
             "MunifTanjim/nui.nvim",
     },
     config = function()
-        vim.keymap.set('n', '<C-n>', ':Neotree filesystem reveal left<CR>',{desc = "view neotree filesystem"})
+        vim.keymap.set('n', '<C-n>', ':Neotree filesystem toggle reveal left<CR>',{desc = "view neotree filesystem"})
     end
 }

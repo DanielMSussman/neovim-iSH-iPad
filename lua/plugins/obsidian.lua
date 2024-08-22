@@ -20,10 +20,6 @@ return{
             },
             opts = {
                 workspaces = {
-                    {
-                        name = "sussman",
-                        path = "~/repos/obsidianNotes",
-                    },
                     --{
                     --    name = "work",
                     --    path = "~/vaults/work",

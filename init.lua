@@ -24,5 +24,3 @@ require("vimOptions")
 require("keymaps")
 
 require("lazy").setup("plugins")
-
---require("autocmds")
