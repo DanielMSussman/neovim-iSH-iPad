@@ -4,7 +4,7 @@
 
 **Caveat:** The steps below are going to involve using the Alpine edge repositories (and in some cases, testing) repositories. Breaking (or in some cases, improving!) changes to the steps below almost certainly can and will happen. I also suspect that if/when iSH updates to a newer version of Alpine Linux things will get easier.
 
-**Structure of the rest of the document:** I'll walk through the steps to get neovim 0.10.0 running on iSH shell, together with the lazy plugin manager. I'll list a handful of plugins that work out-of-the-box without much comment, and then I'll step through the process of getting some of the stickier things working. Optionally, for those interested, just installing everything in iSH I'll comment on installing and setting up nerd fonts.
+**Structure of the rest of the document:** I'll walk through the steps to get neovim 0.10.0 running on iSH shell, together with the lazy plugin manager. I'll list a handful of plugins that work out-of-the-box without much comment, and then I'll step through the process of getting some of the stickier things working. Optionally, for those interested, just installing everything in iSH I'll comment on installing and setting up nerd fonts. If, instead, you want to just *use an off-the-shelf distro*, please see the [distroInstallation](distroInstallation.md) walkthrough, which discusses LazyVim. Just a heads-up: by default, it will be sluggish on the iPad. I suggest pruning plugins you don't use.
 
 
 # Getting Neovim v0.10 running on an iPad
