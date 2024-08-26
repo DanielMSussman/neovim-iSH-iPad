@@ -1,10 +1,22 @@
 **Goal:** Get neovim and some plugins running on the app-store version of iSH shell on an iPad (rather than relying on ssh/connecting to a different device actually running neovim). If all you want is  vanilla neovim  this  is  actually quite easy -- all of the rough edges are in getting plugins, LSPs, nerd fonts, and whatnot up an running.
 
-**Need:** The question of how to get an iPad/iSH/neovim setup running has been asked before -- for light coding, writing, and editing while travelling it would be pretty convenient! -- but a lot of the answers suggest that X is impossible. As far as I can tell most things can be made to work; the problem is that the solutions are scattered across different forums / issue threads / etc. It would be nice to have a place with all of these solutions in the same place. Related: additions, comments, and pull requests welcome!
+**Need:** The question of how to get an iPad/iSH/neovim setup running has been asked before -- for light coding, writing, and editing while travelling it would be pretty convenient! -- but a lot of the answers suggest that X is impossible. As far as I can tell most things can be made to work; the problem is that the solutions are scattered across different forums / issue threads / etc. I thought it would be nice to have a lot of these solutions (What packages do I need to `apk add`? What options do I need to set in the configs to get something to work?) all in the same place for easy reference. 
 
 **Caveat:** The steps below are going to involve using the Alpine edge repositories (and in some cases, testing) repositories. Breaking (or in some cases, improving!) changes to the steps below almost certainly can and will happen. I also suspect that if/when iSH updates to a newer version of Alpine Linux things will get easier.
 
-**Structure of the rest of the document:** I'll walk through the steps to get neovim 0.10.0 running on iSH shell, together with the lazy plugin manager. I'll list a handful of plugins that work out-of-the-box without much comment, and then I'll step through the process of getting some of the stickier things working. Optionally, for those interested, just installing everything in iSH I'll comment on installing and setting up nerd fonts. If, instead, you want to just *use an off-the-shelf distro*, please see the [distroInstallation](distroInstallation.md) walkthrough, which discusses LazyVim. Just a heads-up: by default, it will be sluggish on the iPad. I suggest pruning plugins you don't use.
+**Structure of the rest of the document:** Just below I'll show a few screen recordings of things working. For those interested, I'll then comment on installing and setting up nerd fonts. Then I'll walk through the steps to get neovim 0.10.0 running on iSH shell, together with the lazy plugin manager. I'll list a handful of plugins that work out-of-the-box, and then I'll step through the process of getting some of the stickier things working.
+If, instead, you want to just *use an off-the-shelf distro*, please see the [distroInstallation](distroInstallation.md) walkthrough, which discusses LazyVim.
+Just a heads-up: by default, it will be sluggish on the iPad. I suggest pruning plugins you don't use.
+
+## Video samples:
+
+### Usings snippets to write and then vimtex to compile a simple pdf
+
+https://github.com/user-attachments/assets/e8b9be41-346b-4aaa-bd6d-7003c5b90562
+
+### Somehow getting any LSP working
+
+https://github.com/user-attachments/assets/8fb1423a-2b00-4888-92f3-433d3930ab45
 
 
 # Getting Neovim v0.10 running on an iPad
