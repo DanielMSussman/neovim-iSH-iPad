@@ -21,7 +21,7 @@ This is already enough to do:
 
 Let's preemptively add packages that the default LazyVim distribution needs:
 
-    $ apk add curl gzip wget bash gcc libc-dev ripgrep unzip grep
+    $ apk add curl gzip wget bash gcc libc-dev fd ripgrep unzip grep
 
 ## LazyVim
 
