@@ -114,7 +114,6 @@ In my testing, all of the plugins below worked in their default configurations w
 - `folke/which-key.nvim`
 - `echasnovski/mini.notify`
 - `echasnovski/mini.clue`
-- `epwalsh/obsidian.nvim`
 - `epwalsh/pomo.nvim`
 - `hrsh7th/nvim-cmp` (but see note below)
 
