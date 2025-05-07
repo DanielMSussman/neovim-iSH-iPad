@@ -1,3 +1,28 @@
+# May 2025 update
+
+The app-store version of iSH shell and the latest versions of neovim might have an incompatibility --- I'm honestly not sure if this is going to be a long-term issue, but for now we can still get neovim 0.10.0 working. The steps below suggest adding the `edge` repositories; these aren't working on the ipad for many people, but the v3.20 versions are.
+
+## Tl;dr
+
+Below there is a step where I recommend:
+
+    $ apk update
+    $ apk upgrade
+    $ echo https://dl-cdn.alpinelinux.org/alpine/edge/main >> /etc/apk/repositories
+    $ echo https://dl-cdn.alpinelinux.org/alpine/edge/community >> /etc/apk/repositories
+    $ apk update
+    $ apk upgrade
+    $ apk add git openssh neovim
+
+Instead, replace the middle lines to be 
+
+    $ echo https://dl-cdn.alpinelinux.org/alpine/v3.20/main >> /etc/apk/repositories
+    $ echo https://dl-cdn.alpinelinux.org/alpine/v3.20/community >> /etc/apk/repositories
+
+This will get you `neovim (0.10.0-r1)` on your system; I'll try to occasionally check to see if the packages on edge, or later stable versions, eventually become compatible.
+
+# Overview
+
 **Goal:** Get neovim and some plugins running on the app-store version of iSH shell on an iPad (rather than relying on ssh/connecting to a different device actually running neovim). If all you want is  vanilla neovim  this  is  actually quite easy -- all of the rough edges are in getting plugins, LSPs, nerd fonts, and whatnot up an running.
 
 **Need:** The question of how to get an iPad/iSH/neovim setup running has been asked before -- for light coding, writing, and editing while travelling it would be pretty convenient! -- but a lot of the answers suggest that X is impossible. As far as I can tell most things can be made to work; the problem is that the solutions are scattered across different forums / issue threads / etc. I thought it would be nice to have a lot of these solutions (What packages do I need to `apk add`? What options do I need to set in the configs to get something to work?) all in the same place for easy reference. 
