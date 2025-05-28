@@ -1,6 +1,7 @@
 # LazyVim
 
-If you just want to get running with LazyVim, this is for you:
+If you just want to get running with LazyVim, this *might* be for you.
+On older versions of neovim and alpine the following path worked out of the box. The problem is that many distributions -- including LazyVim -- might at any time update the set of plugins they use to include something that iSH can no longer handle. At the moment I recommend doing a minimal installation a la the main README, but the following might still be reasonable to try.
 
 ## Initial installation of stuff in iSH:
 
@@ -8,8 +9,8 @@ To start things off we'll follow the [advice here](https://www.reddit.com/r/neov
 
     $ apk update
     $ apk upgrade
-    $ echo https://dl-cdn.alpinelinux.org/alpine/edge/main >> /etc/apk/repositories
-    $ echo https://dl-cdn.alpinelinux.org/alpine/edge/community >> /etc/apk/repositories
+    $ echo https://dl-cdn.alpinelinux.org/alpine/v3.20/main >> /etc/apk/repositories
+    $ echo https://dl-cdn.alpinelinux.org/alpine/v3.20/community >> /etc/apk/repositories
     $ apk update
     $ apk upgrade
 

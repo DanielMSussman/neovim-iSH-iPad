@@ -14,7 +14,7 @@ Below there is a step where I recommend:
     $ apk upgrade
     $ apk add git openssh neovim
 
-Instead, replace the middle lines to be 
+Do not do this. Instead, replace the middle lines to be the following:
 
     $ echo https://dl-cdn.alpinelinux.org/alpine/v3.20/main >> /etc/apk/repositories
     $ echo https://dl-cdn.alpinelinux.org/alpine/v3.20/community >> /etc/apk/repositories
@@ -74,7 +74,7 @@ The second is that the iSH settings menu will indeed let you change to that font
 
 ### Initial installation of stuff in iSH:
 
-To start things off we'll follow the [advice here](https://www.reddit.com/r/neovim/comments/193yq8g/comment/l5hywg8/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) and  add the edge/main and edge/community repositories to draw packages from:
+To start things off we'll follow the [advice here](https://www.reddit.com/r/neovim/comments/193yq8g/comment/l5hywg8/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) and add the edge/main and edge/community repositories to draw packages from:
 
     $ apk update
     $ apk upgrade
