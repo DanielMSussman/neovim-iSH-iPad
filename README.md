@@ -232,4 +232,8 @@ But: clangd worked (and even then played nicely with the already-functioning `cm
 As Meatloaf almost said, one out of three ain't bad.
 
 Thanks for reading all the way to the end! If you're interested in some of the other things I've written about using Neovim,  you can check out my main website for articles about [using Neovim as a LaTeX editor](https://www.dmsussman.org/resources/vimandlatex/) and about [reasonable practices for LaTeX documents](https://www.dmsussman.org/resources/latexcollaboration/) more generally.
-u
+
+### Thanks?
+
+If you found this helpful and would like to offer support:
+[![Buy Me a Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-blue.png)](https://www.buymeacoffee.com/danielmsussman)
