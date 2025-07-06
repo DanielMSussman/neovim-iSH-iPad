@@ -19,6 +19,11 @@ Do not do this. Instead, replace the middle lines to be the following:
 
 This will get you `neovim (0.10.0-r1)` on your system; I'll try to occasionally check to see if the packages on edge, or later stable versions, eventually become compatible.
 
+### Thanks?
+
+If you find this helpful and would like to offer support:
+[![Buy Me a Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-blue.png)](https://www.buymeacoffee.com/danielmsussman)
+
 # Overview
 
 **Goal:** Get neovim and some plugins running on the app-store version of iSH shell on an iPad (rather than relying on ssh/connecting to a different device actually running neovim). If all you want is  vanilla neovim  this  is  actually quite easy -- all of the rough edges are in getting plugins, LSPs, nerd fonts, and whatnot up an running.
@@ -229,7 +234,4 @@ As Meatloaf almost said, one out of three ain't bad.
 
 Thanks for reading all the way to the end! If you're interested in some of the other things I've written about using Neovim,  you can check out my main website for articles about [using Neovim as a LaTeX editor](https://www.dmsussman.org/resources/vimandlatex/) and about [reasonable practices for LaTeX documents](https://www.dmsussman.org/resources/latexcollaboration/) more generally.
 
-### Thanks?
 
-If you found this helpful and would like to offer support:
-[![Buy Me a Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-blue.png)](https://www.buymeacoffee.com/danielmsussman)
