@@ -21,8 +21,7 @@ This will get you `neovim (0.10.0-r1)` on your system; I'll try to occasionally 
 
 ### Thanks?
 
-If you find this helpful and would like to offer support:
-[![Buy Me a Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-blue.png)](https://www.buymeacoffee.com/danielmsussman)
+If you find this helpful and would like to offer support: [Buy Me a Coffee](https://www.buymeacoffee.com/danielmsussman)
 
 # Overview
 
